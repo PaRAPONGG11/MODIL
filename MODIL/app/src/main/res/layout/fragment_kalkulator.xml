@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.kalkulator.KalkulatorFragment">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"
+        android:gravity="end"
+        android:layout_margin="16dp"/>
+
+
+<GridLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:columnCount="3"
+android:orientation="horizontal"
+android:layout_marginTop="20dp">
+
+<!-- Button 1 -->
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="1" />
+
+<!-- Button 2 -->
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="2" />
+
+<!-- Button 3 -->
+<Button
+    android:id="@+id/button3"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="3" />
+
+<!-- Button 4 -->
+<Button
+    android:id="@+id/button4"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="4" />
+
+<!-- Button 5 -->
+<Button
+    android:id="@+id/button5"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="5" />
+
+<!-- Button 6 -->
+<Button
+    android:id="@+id/button6"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="6" />
+
+<!-- Button 7 -->
+<Button
+    android:id="@+id/button7"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="7" />
+
+<!-- Button 8 -->
+<Button
+    android:id="@+id/button8"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="8" />
+
+<!-- Button 9 -->
+<Button
+    android:id="@+id/button9"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnWeight="1"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="9" />
+
+<!-- Button 0 -->
+<Button
+    android:id="@+id/button0"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_columnSpan="3"
+    android:layout_gravity="center"
+    android:layout_margin="4dp"
+    android:text="0" />
+</GridLayout>
+
+    <GridLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="4"
+        android:orientation="horizontal">
+        <!-- Button Add and Equal outside Grid -->
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/buttonSqrt"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="√" />
+
+        <Button
+            android:id="@+id/buttonSquare"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="x²" />
+
+        <Button
+            android:id="@+id/buttonLog"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="log" />
+
+        <Button
+            android:id="@+id/buttonLn"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="ln" />
+
+        <!-- Baris Fungsi Trigonometri -->
+        <Button
+            android:id="@+id/buttonSin"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="sin" />
+
+        <Button
+            android:id="@+id/buttonCos"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="cos" />
+
+        <Button
+            android:id="@+id/buttonTan"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="tan" />
+
+        <Button
+            android:id="@+id/buttonExp"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="exp" />
+
+        <Button
+            android:id="@+id/buttonEqual"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:text="CLR" />
+
+
+    </GridLayout>
+</LinearLayout>

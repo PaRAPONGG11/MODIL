@@ -1,0 +1,5 @@
+<resources>
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Tambahkan styling lainnya jika perlu -->
+    </style>
+</resources>

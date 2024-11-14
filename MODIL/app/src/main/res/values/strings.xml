@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MODIL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TUGAS MOBILE FADHIL</string>
+    <string name="nav_header_subtitle">PILIH SEGMEN :</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_kalkulator">KALKULATOR</string>
+    <string name="menu_gallery">BMI</string>
+    <string name="menu_konversi">KONVERSI UANG</string>
+    <string name="menu_suhu">KONVERSI SUHU</string>
+    <string-array name="currency_array">
+        <item>USD</item>
+        <item>IDR</item>
+        <item>EUR</item>
+        <!-- Tambahkan mata uang lain sesuai kebutuhan -->
+    </string-array>
+    <string-array name="temperature_units_array">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+        <!-- Tambahkan mata uang lain sesuai kebutuhan -->
+    </string-array>
+
+</resources>
